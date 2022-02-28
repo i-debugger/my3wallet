@@ -1,0 +1,45 @@
+class Images {
+  static const String logo = "assets/images/loginPageImage.png";
+  static const String successImage = "assets/images/successImage.png";
+  static const String offer = "assets/images/Offer.png";
+  static const String service = "assets/images/Service.png";
+  static const String netBanking = "assets/images/netbanking.png";
+  static const String user = "assets/images/User.png";
+  static const String barCode = "assets/images/barcode.png";
+  static const String vector = "assets/images/Vector.png";
+  static const String flyingMoney = "assets/images/flyingmoney.png";
+  static const String wallet = "assets/images/Wallet.png";
+  static const String product = "assets/images/Product.png";
+  static const String upi = "assets/images/upi.png";
+  static const String mobileBanking = "assets/images/mobilebanking.png";
+  static const String wallet2 = "assets/images/Wallet2.png";
+  static const String myFd = "assets/images/myFd.png";
+  static const String addAccount = "assets/images/addaccount.png";
+  static const String bank = "assets/images/bank.png";
+  static const String calculator = "assets/images/calculator.png";
+  static const String cc = "assets/images/cc.png";
+  static const String cc2 = "assets/images/cc2.png";
+  static const String interest = "assets/images/interest.png";
+  static const String meter = "assets/images/Meter.png";
+  static const String mobileRecharge = "assets/images/mobilerecharge.png";
+  static const String offers = "assets/images/offers.png";
+  static const String report = "assets/images/Report.png";
+  static const String statement = "assets/images/statement.png";
+  static const String my3account = "assets/images/my3account.png";
+  static const String newFd = "assets/images/newFd.png";
+  static const String bill = "assets/images/bill.png";
+  static const String arrow = "assets/images/arrow.png";
+  static const String tick = "assets/images/tick.png";
+  static const String demoBank = "assets/images/demoBank.png";
+  static const String card = "assets/images/card.png";
+  static const String verified = "assets/images/Verified.png";
+  static const String offerimage1 = "assets/images/offerimage1.png";
+  static const String offerSale = "assets/images/offerSale.png";
+  static const String offerSale1 = "assets/images/offerSale1.png";
+  static const String selected = "assets/images/selected.png";
+  static const String unselected = "assets/images/unselected.png";
+  static const String cardimage = "assets/images/cardimage.png";
+  static const String uploadfile = "assets/images/uploadfile.png";
+
+  static const String mastercard = "assets/images/mastercard.png";
+}

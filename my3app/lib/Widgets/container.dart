@@ -8,11 +8,11 @@ class WidthContainer extends StatelessWidget {
   final double radius;
 
   const WidthContainer({
-    Key? key,
+    super.key,
     required this.widget1,
     required this.width,
     required this.radius,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -34,12 +34,12 @@ class WidthAndColorContainer extends StatelessWidget {
   final Color color;
 
   const WidthAndColorContainer({
-    Key? key,
+    super.key,
     required this.widget1,
     required this.width,
     required this.radius,
     required this.color,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -60,11 +60,11 @@ class WidthWhiteBorderContainer extends StatelessWidget {
   final double radius;
 
   const WidthWhiteBorderContainer({
-    Key? key,
+    super.key,
     required this.widget1,
     required this.width,
     required this.radius,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -86,12 +86,12 @@ class ButtonContainer extends StatelessWidget {
   final VoidCallback onPressed;
 
   const ButtonContainer({
-    Key? key,
+    super.key,
     required this.text,
     required this.textColor,
     required this.color,
     required this.onPressed,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

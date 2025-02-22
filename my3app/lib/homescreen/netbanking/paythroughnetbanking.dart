@@ -9,7 +9,7 @@ import '../../Widgets/textbox.dart';
 import '../../homescreen/dashboard.dart';
 
 class PayThroughNetBanking extends StatefulWidget {
-  const PayThroughNetBanking({Key? key}) : super(key: key);
+  const PayThroughNetBanking({super.key});
 
   @override
   _PayThroughNetBankingState createState() => _PayThroughNetBankingState();

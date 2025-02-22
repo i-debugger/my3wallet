@@ -8,7 +8,7 @@ import '../../homescreen/dashboard.dart';
 
 
 class Services extends StatefulWidget {
-  const Services({Key? key}) : super(key: key);
+  const Services({super.key});
 
   @override
   State<Services> createState() => _ServicesState();

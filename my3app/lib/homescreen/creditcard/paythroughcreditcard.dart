@@ -9,7 +9,7 @@ import '../../homescreen/dashboard.dart';
 import '../../homescreen/Creditcard/crosscheckpage.dart';
 
 class PayThroughCreditCard extends StatefulWidget {
-  const PayThroughCreditCard({Key? key}) : super(key: key);
+  const PayThroughCreditCard({super.key});
 
   @override
   _PayThroughCreditCardState createState() => _PayThroughCreditCardState();

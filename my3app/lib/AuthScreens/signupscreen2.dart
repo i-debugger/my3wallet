@@ -16,7 +16,7 @@ final stateController = TextEditingController();
 final _formKey = GlobalKey<FormState>();
 
 class SignUpScreen2 extends StatefulWidget {
-  const SignUpScreen2({Key? key}) : super(key: key);
+  const SignUpScreen2({super.key});
 
   @override
   _SignUpScreenState createState() => _SignUpScreenState();

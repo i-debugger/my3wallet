@@ -9,7 +9,7 @@ import '../../homescreen/dashboard.dart';
 import '../../homescreen/upi/paythroughupi.dart';
 
 class UPISuccessfull extends StatelessWidget {
-  const UPISuccessfull({Key? key}) : super(key: key);
+  const UPISuccessfull({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -87,8 +87,7 @@ class UPISuccessfull extends StatelessWidget {
                                 side: const BorderSide(
                                   color: ThemeColors.white,
                                   width: 1,
-                                )),
-                            primary: ThemeColors.green,
+                                )), backgroundColor: ThemeColors.green,
                           ),
                           onPressed: () {},
                           child: Row(

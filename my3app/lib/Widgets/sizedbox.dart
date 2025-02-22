@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class SizedBox20 extends StatelessWidget {
-  const SizedBox20({Key? key}) : super(key: key);
+  const SizedBox20({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class SizedBox20 extends StatelessWidget {
 }
 
 class SizedBox40 extends StatelessWidget {
-  const SizedBox40({Key? key}) : super(key: key);
+  const SizedBox40({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class SizedBox40 extends StatelessWidget {
 }
 
 class SizedBox30 extends StatelessWidget {
-  const SizedBox30({Key? key}) : super(key: key);
+  const SizedBox30({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -34,7 +34,7 @@ class SizedBox30 extends StatelessWidget {
 }
 
 class SizedBox15 extends StatelessWidget {
-  const SizedBox15({Key? key}) : super(key: key);
+  const SizedBox15({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -45,7 +45,7 @@ class SizedBox15 extends StatelessWidget {
 }
 
 class SizedBox50 extends StatelessWidget {
-  const SizedBox50({Key? key}) : super(key: key);
+  const SizedBox50({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -56,7 +56,7 @@ class SizedBox50 extends StatelessWidget {
 }
 
 class SizedBox10 extends StatelessWidget {
-  const SizedBox10({Key? key}) : super(key: key);
+  const SizedBox10({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -67,7 +67,7 @@ class SizedBox10 extends StatelessWidget {
 }
 
 class SizedBox5 extends StatelessWidget {
-  const SizedBox5({Key? key}) : super(key: key);
+  const SizedBox5({super.key});
 
   @override
   Widget build(BuildContext context) {

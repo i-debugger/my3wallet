@@ -20,7 +20,7 @@ final passwordController = TextEditingController();
 final _formKey = GlobalKey<FormState>();
 
 class SignUpScreen1 extends StatefulWidget {
-  const SignUpScreen1({Key? key}) : super(key: key);
+  const SignUpScreen1({super.key});
 
   @override
   _SignUpScreenState createState() => _SignUpScreenState();

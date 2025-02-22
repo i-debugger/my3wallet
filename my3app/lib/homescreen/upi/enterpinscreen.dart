@@ -7,7 +7,7 @@ import '../../Widgets/color.dart';
 import '../../Widgets/text.dart';
 
 class EnterPinScreen extends StatefulWidget {
-  const EnterPinScreen({Key? key}) : super(key: key);
+  const EnterPinScreen({super.key});
 
   @override
   _EnterPinScreenState createState() => _EnterPinScreenState();

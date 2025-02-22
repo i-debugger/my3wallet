@@ -7,7 +7,7 @@ import '../../homescreen/dashboard.dart';
 import '../../homescreen/transactionsuccess/successfullwallet.dart';
 
 class CrossCheckPage extends StatelessWidget {
-  const CrossCheckPage({Key? key}) : super(key: key);
+  const CrossCheckPage({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -63,14 +63,14 @@ class BorderButton extends StatelessWidget {
   final Color color;
 
   const BorderButton({
-    Key? key,
+    super.key,
     required this.textName,
     required this.onPressed,
     required this.width,
     required this.weight,
     required this.size,
     required this.color,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -84,8 +84,7 @@ class BorderButton extends StatelessWidget {
               side: BorderSide(
                 color: color,
                 width: 3,
-              )),
-          primary: ThemeColors.black,
+              )), backgroundColor: ThemeColors.black,
         ),
         onPressed: () {
           onPressed();
@@ -110,14 +109,14 @@ class BorderWithIconButton extends StatelessWidget {
   final Icon icon;
 
   const BorderWithIconButton({
-    Key? key,
+    super.key,
     required this.textName,
     required this.onPressed,
     required this.width,
     required this.weight,
     required this.size,
     required this.icon,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -131,8 +130,7 @@ class BorderWithIconButton extends StatelessWidget {
               side: const BorderSide(
                 color: ThemeColors.primary1,
                 width: 3,
-              )),
-          primary: ThemeColors.black,
+              )), backgroundColor: ThemeColors.black,
         ),
         onPressed: () {
           onPressed();

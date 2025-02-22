@@ -10,7 +10,7 @@ import '../../Widgets/images.dart';
 import '../../Widgets/text.dart';
 
 class ChoosePaytmentMode extends StatefulWidget {
-  const ChoosePaytmentMode({Key? key}) : super(key: key);
+  const ChoosePaytmentMode({super.key});
 
   @override
   State<ChoosePaytmentMode> createState() => _PayWalletOrUPIState();

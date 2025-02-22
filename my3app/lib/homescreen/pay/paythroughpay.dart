@@ -8,7 +8,7 @@ import '../../Widgets/text.dart';
 import '../../homescreen/dashboard.dart';
 
 class PayThroughPay extends StatefulWidget {
-  const PayThroughPay({Key? key}) : super(key: key);
+  const PayThroughPay({super.key});
 
   @override
   _PayThroughPayState createState() => _PayThroughPayState();

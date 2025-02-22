@@ -7,7 +7,7 @@ import '../../Widgets/textbox.dart';
 import '../../homescreen/dashboard.dart';
 
 class Loans extends StatefulWidget {
-  const Loans({Key? key}) : super(key: key);
+  const Loans({super.key});
 
   @override
   State<Loans> createState() => _LoansState();

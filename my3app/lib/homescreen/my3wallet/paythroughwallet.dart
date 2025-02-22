@@ -8,7 +8,7 @@ import '../../homescreen/dashboard.dart';
 import '../../homescreen/my3wallet/choosepaytmentmode.dart';
 
 class PayThroughWallet extends StatelessWidget {
-  const PayThroughWallet({Key? key}) : super(key: key);
+  const PayThroughWallet({super.key});
 
   @override
   Widget build(BuildContext context) {

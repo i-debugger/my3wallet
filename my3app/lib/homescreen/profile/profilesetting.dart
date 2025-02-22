@@ -6,7 +6,7 @@ import '../../Widgets/textbox.dart';
 import '../../homescreen/dashboard.dart';
 
 class ProfileSetting extends StatefulWidget {
-  const ProfileSetting({Key? key}) : super(key: key);
+  const ProfileSetting({super.key});
 
   @override
   _ProfileSettingState createState() => _ProfileSettingState();

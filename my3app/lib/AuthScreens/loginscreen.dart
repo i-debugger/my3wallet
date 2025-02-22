@@ -14,7 +14,7 @@ final passwordController = TextEditingController();
 final _formKey = GlobalKey<FormState>();
 
 class LoginScreen extends StatelessWidget {
-  const LoginScreen({Key? key}) : super(key: key);
+  const LoginScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

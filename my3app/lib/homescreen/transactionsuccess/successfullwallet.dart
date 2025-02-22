@@ -9,7 +9,7 @@ import '../../homescreen/dashboard.dart';
 import '../../homescreen/my3wallet/my3wallet.dart';
 
 class WalletSuccessfull extends StatelessWidget {
-  const WalletSuccessfull({Key? key}) : super(key: key);
+  const WalletSuccessfull({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -92,8 +92,7 @@ class WalletSuccessfull extends StatelessWidget {
                                 side: const BorderSide(
                                   color: ThemeColors.white,
                                   width: 1,
-                                )),
-                            primary: ThemeColors.green,
+                                )), backgroundColor: ThemeColors.green,
                           ),
                           onPressed: () {},
                           child: Row(

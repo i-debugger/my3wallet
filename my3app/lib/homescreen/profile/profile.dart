@@ -8,7 +8,7 @@ import '../../Widgets/sizedbox.dart';
 import '../../Widgets/text.dart';
 
 class Profile extends StatelessWidget {
-  const Profile({Key? key}) : super(key: key);
+  const Profile({super.key});
 
   @override
   Widget build(BuildContext context) {

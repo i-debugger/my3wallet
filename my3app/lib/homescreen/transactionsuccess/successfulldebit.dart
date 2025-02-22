@@ -9,7 +9,7 @@ import '../../homescreen/dashboard.dart';
 import '../../homescreen/debitcard/paythroughdebitcard.dart';
 
 class DebitSuccessfull extends StatelessWidget {
-  const DebitSuccessfull({Key? key}) : super(key: key);
+  const DebitSuccessfull({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -87,8 +87,7 @@ class DebitSuccessfull extends StatelessWidget {
                                 side: const BorderSide(
                                   color: ThemeColors.white,
                                   width: 1,
-                                )),
-                            primary: ThemeColors.green,
+                                )), backgroundColor: ThemeColors.green,
                           ),
                           onPressed: () {},
                           child: Row(

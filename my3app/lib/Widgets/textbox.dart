@@ -9,12 +9,12 @@ class NormalTextField extends StatelessWidget {
   final Icon icon;
 
   const NormalTextField({
-    Key? key,
+    super.key,
     required this.hintText,
     required this.controller,
     required this.validatorText,
     required this.icon,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -65,13 +65,13 @@ class NormalTextFieldWithWidth extends StatelessWidget {
   final double width;
 
   const NormalTextFieldWithWidth({
-    Key? key,
+    super.key,
     required this.hintText,
     required this.controller,
     required this.validatorText,
     required this.icon,
     required this.width,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -125,12 +125,12 @@ class OtpTextBox extends StatelessWidget {
   final double width;
 
   const OtpTextBox({
-    Key? key,
+    super.key,
     required this.hintText,
     required this.controller,
     required this.validatorText,
     required this.width,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -181,11 +181,11 @@ class NormalTextFieldWithOutValidator extends StatelessWidget {
   final Icon icon;
 
   const NormalTextFieldWithOutValidator({
-    Key? key,
+    super.key,
     required this.hintText,
     required this.controller,
     required this.icon,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

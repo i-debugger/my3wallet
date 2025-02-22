@@ -11,7 +11,7 @@ import '../../homescreen/my3wallet/crosscheckpage.dart';
 import '../../homescreen/my3wallet/paythroughwallet.dart';
 
 class My3Wallet extends StatefulWidget {
-  const My3Wallet({Key? key}) : super(key: key);
+  const My3Wallet({super.key});
 
   @override
   _My3WalletState createState() => _My3WalletState();

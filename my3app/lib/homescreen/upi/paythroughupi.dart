@@ -8,7 +8,7 @@ import '../../Widgets/textbox.dart';
 import '../../homescreen/upi/choosepaytmentmode.dart';
 
 class PayThroughUPI extends StatelessWidget {
-  const PayThroughUPI({Key? key}) : super(key: key);
+  const PayThroughUPI({super.key});
 
   @override
   Widget build(BuildContext context) {

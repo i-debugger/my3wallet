@@ -5,7 +5,7 @@ import '../../Widgets/sizedbox.dart';
 import '../../Widgets/text.dart';
 
 class Items extends StatelessWidget {
-  const Items({Key? key}) : super(key: key);
+  const Items({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +35,7 @@ class Items extends StatelessWidget {
 }
 
 class Items1 extends StatelessWidget {
-  const Items1({Key? key}) : super(key: key);
+  const Items1({super.key});
 
   @override
   Widget build(BuildContext context) {

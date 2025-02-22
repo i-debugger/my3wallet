@@ -9,7 +9,7 @@ import '../../homescreen/dashboard.dart';
 import '../../homescreen/netbanking/paythroughnetbanking.dart';
 
 class NetbankingSuccessfull extends StatelessWidget {
-  const NetbankingSuccessfull({Key? key}) : super(key: key);
+  const NetbankingSuccessfull({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -87,8 +87,7 @@ class NetbankingSuccessfull extends StatelessWidget {
                                 side: const BorderSide(
                                   color: ThemeColors.white,
                                   width: 1,
-                                )),
-                            primary: ThemeColors.green,
+                                )), backgroundColor: ThemeColors.green,
                           ),
                           onPressed: () {},
                           child: Row(

@@ -7,7 +7,7 @@ import '../../Widgets/textbox.dart';
 import '../../homescreen/dashboard.dart';
 
 class Offers extends StatefulWidget {
-  const Offers({Key? key}) : super(key: key);
+  const Offers({super.key});
 
   @override
   State<Offers> createState() => _OffersState();

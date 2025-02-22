@@ -13,7 +13,7 @@ final otpController = TextEditingController();
 final _formKey = GlobalKey<FormState>();
 
 class ForgetScreen extends StatelessWidget {
-  const ForgetScreen({Key? key}) : super(key: key);
+  const ForgetScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

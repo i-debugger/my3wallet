@@ -7,7 +7,7 @@ import '../Widgets/sizedbox.dart';
 import '../Widgets/text.dart';
 
 class RegisterSuccessfullScreen extends StatelessWidget {
-  const RegisterSuccessfullScreen({Key? key}) : super(key: key);
+  const RegisterSuccessfullScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -7,7 +7,7 @@ import '../../Widgets/text.dart';
 import '../../homescreen/dashboard.dart';
 
 class StartPage extends StatefulWidget {
-  const StartPage({Key? key}) : super(key: key);
+  const StartPage({super.key});
 
   @override
   _StartPageState createState() => _StartPageState();

@@ -9,7 +9,7 @@ import '../../homescreen/creditcard/paythroughcreditcard.dart';
 import '../../homescreen/dashboard.dart';
 
 class CreditSuccessfull extends StatelessWidget {
-  const CreditSuccessfull({Key? key}) : super(key: key);
+  const CreditSuccessfull({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -87,8 +87,7 @@ class CreditSuccessfull extends StatelessWidget {
                                 side: const BorderSide(
                                   color: ThemeColors.white,
                                   width: 1,
-                                )),
-                            primary: ThemeColors.green,
+                                )), backgroundColor: ThemeColors.green,
                           ),
                           onPressed: () {},
                           child: Row(

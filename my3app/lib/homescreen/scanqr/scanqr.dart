@@ -5,7 +5,7 @@ import '../../Widgets/text.dart';
 import '../../homescreen/dashboard.dart';
 
 class ScanQR extends StatelessWidget {
-  const ScanQR({Key? key}) : super(key: key);
+  const ScanQR({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -31,10 +31,10 @@ class ScanQR extends StatelessWidget {
             ),
           ]),
       backgroundColor: ThemeColors.ellipse13,
-      body: SafeArea(
+      body: const SafeArea(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const [
+          children: [
             Padding(
               padding: EdgeInsets.all(18.0),
               child: WidthContainer(

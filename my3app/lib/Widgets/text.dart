@@ -8,12 +8,12 @@ class NormalText extends StatelessWidget {
   String text;
   FontWeight weight;
   NormalText({
-    Key? key,
+    super.key,
     required this.size,
     required this.color,
     required this.text,
     required this.weight,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
